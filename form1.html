@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BillPage</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+   <div class="layout_container">
+    <div class="container">
+        <p class="line">BILLING DETAILS</p></br>
+
+        <form>
+
+            <div class="form_container">
+
+
+                <div class="form_control">
+                    <label for="name">First name*</label>
+                    <input type="text" id="name" name="First">
+                    <label for="Lastname">Last name*</label>
+                    <input type="text" id="Lastname" name="First">
+                </div>
+
+
+
+
+                <label for="company">company name*</label>
+                <input type="text" id="company" name="company">
+
+
+
+                <label for="country">Country*</label>
+                <select id="country" name="country">
+                    <option value="India">India</option>
+                    <option value="America">America</option>
+                    <option value="Japan">Japan</option>
+                    <option value="France">France</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+                </select>
+
+
+
+                <label for="Address">Street Address*</label>
+                <input type="address" id="Address" name="First" placeholder="House number and street name">
+                <input type="address" id="Address" name="First" placeholder="Apartment,suite,unit etc.(optional)">
+
+                </br>
+
+
+
+                <label for="town">Town/city*</label>
+                <input type="text" id="town" name="town">
+
+
+                <label for="State">State/country*</label>
+                <input type="text" id="State" name="First">
+
+
+                <label for="country">State/country*</label>
+                <select id="country" name="" country>
+                    <option>Andhra Pradesh</option>
+                    <option>Bihar</option>
+                    <option>Chhatisgarh</option>
+                    <option>Delhi</option>
+                    <option>Faridabad</option>
+                    <option>Goa</option>
+                    <option>Hydrabad</option>
+                </select>
+
+
+                
+                <label for="numbers">Postcode/Zip*</label>
+                <input type="number" id="numbers" name="First">
+
+
+                <div class="form_control">
+                    <label for="number">Phone*</label>
+                    <input type="number" id="number" name="First">
+                    <label for="email">Email address*</label>
+                    <input type="email" id="email" name="First">
+                </div>
+
+            </div></br>
+        </form>
+        <form>
+            <p class="line">ADDITIONAL INFORMATION</p></br>
+            <div class="form_container">
+
+                <label for="typetxt">Order notes</label>
+                <textarea id="typetxt" name="notes" row="10" col="100"
+                    placeholder="Notes about your order,e.g. special notes for delivery"></textarea> </div>
+
+                 </form>
+                </div>
+        
+
+   <!----next column-->
+    <div class="container1">
+        <p class="line">Your Order</p></br></br>
+        <table>
+            <tr>
+                <td>Product</td>
+                <td>Total</td>
+            </tr>
+            <tr>
+                <td>Fifa Brown Sofa-1 seater sofa</td>
+                <td>&#9744 5,555.00</td>
+            </tr>
+            <tr>
+                <td>Subtotal</td>
+                <td>&#9744  5,555.00</td>
+          </tr>
+          <tr>
+            <th>TOTAL</th>
+            <th>&#9744 5,555.00</th>
+        </tr>
+        </table>
+        </br></br>
+        <p>Credit card/Debit/NetBanking </br>
+        <img src="razorpay.jpeg" width="200px" height="80px"></br>
+        Pay securely by Credit or Debit card or internet Banking through Razorpay.
+    </p></br>
+    <button class="btn" >Place Order</button>
+    </div>
+
+
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
